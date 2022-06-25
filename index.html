@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            font-family: sans-serif;
+        }
+
+        .main {
+            padding-left: 130px;
+            background-color: #29b6f6;
+            padding-bottom: 30px;
+            height: 300px;
+        }
+
+        .main>div {
+            width: 90%;
+            display: flex;
+        }
+
+        .main>div>div {
+            width: 13%;
+            padding-right: 30px;
+        }
+
+        .main>div>div~div {
+            margin-left: 25px;
+        }
+
+        img {
+            width: 70%;
+            margin: 5px;
+        }
+
+        .main>div>div>p {
+            width: 50%;
+            font-size: 18px;
+            padding: 13px 0px 8px 10px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .main>h1 {
+            padding: 60px 0px 30px 0px;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .main>div>div:hover {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            zoom: 101%;
+            color: white;
+            cursor: pointer;
+        }
+
+        .main+.main {
+            background-color: #002f6c;
+        }
+        #header {
+            display: flex;
+            padding: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #header>img {
+            width:15%;
+            padding-left: 60px;
+            margin-right: 15px;
+        }
+        #header>button {
+            display: block;
+            margin:15px 15px 0px;
+            height: 40px;
+            border: 1px solid transparent;
+            background-color: transparent;
+        }
+        #header > button:hover{
+            background: rgba(0, 0, 0, 0.1);
+            zoom: 101%;
+            border-radius: 5px;
+        }
+        #header>button>a {
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+        #learnMore {
+            color:black;
+            text-align: center;
+            margin: 10px;
+            font-size: 15px;
+        }
+        .download {
+            padding: 128px 0px 120px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .download>div {
+            width: 50%;
+            margin: 0px 0px 20px 5px
+        }
+        .download>div>img {
+            width:80px;
+            padding-bottom: 30px;
+        }
+        .download>div>h1 {
+            font-size: 60px;
+        }
+        .download>div>p {
+            font-size: 23px;
+            padding:0px 80px 30px 0px;
+        }
+        .download>div:nth-child(3) {
+            border: 1px solid black;
+            height: 50px;
+            width: 20%;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+        }
+        .download>div:nth-child(3)>p {
+            font-size: 17px;
+            text-align: center;
+            padding: 15px 10px 8px 3px;
+            font-weight: bold;
+        }
+        .download>div:nth-child(3):hover {
+            background-color: white;
+            color: black;
+        }
+        .download>img:nth-child(4) {
+            margin: -500px 0px 0px 695px;
+            width: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <img src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" alt="Paytm">
+        <button>
+            <a href="https://paytm.com/">Paytm for Consumer</a>
+        </button>
+        <button>
+            <a href="https://paytm.com/">Paytm for Business</a>
+        </button>
+        <button>
+            <a href="https://paytm.com/">Company</a>
+        </button>
+        <button>
+            <a href="https://paytm.com/">
+                Investor Relations</a>
+        </button>
+        <button>
+            <a href="https://paytm.com/">Career</a>
+        </button>
+    </div>
+    <p id="learnMore">No Wallet KYC Required 😊 to pay using UPI on Paytm.<a href="https://paytm.com/">Learn more.</a></p>
+    <div class="download">
+        
+        <div>
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1626342046207.png" alt="Error">
+            <h1>India's Most-loved Payments App</h1>
+        </div>
+        <div>
+            <p>Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</p>
+        </div>
+        <div>
+            <p>Download Paytm App</p>
+        </div>
+        <img src=" https://assetscdn1.paytm.com/images/catalog/view_item/850762/1626096258626.png" alt="Error">
+    </div>
+    <div class="main">
+        <h1>Reacharge & Pay Bills on Paytm.</h1>
+        <div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" alt="Error">
+                <p>Reacharge your mobile></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733300/1626778824903.png" alt="Error">
+                <p>Pay Rent Payment></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png" alt="Error">
+                <p>Pay
+                    Electricity
+                    Bill></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" alt="Error">
+                <p>Recharge
+                    DTH
+                    Connection></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" alt="Error">
+                <p>Book
+                    Gas
+                    Cylinder></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733304/1627454209116.png" alt="Error">
+                <p>Pay
+                    Credit
+                    CardBill></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png" alt="Error">
+                <p>All
+                    Payment
+                    Services></p>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Reacharge & Pay Bills on Paytm.</h1>
+        <div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png" alt="Error">
+                <p>Movie
+                    Tickets></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/733296/1626259884425.png" alt="Error">
+                <p>Flight
+                    Tickets></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729996/1626260477699.png" alt="Error">
+                <p>Bus
+                    Tickets></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1626260495975.png" alt="Error">
+                <p>Train
+                    Tickets></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1626259953707.png" alt="Error">
+                <p>Car &
+                    Bikes></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/729999/1626259968563.png" alt="Error">
+                <p>International
+                    Flights></p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/730001/1626450848003.png" alt="Error">
+                <p>Invest
+                    in Stocks></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
